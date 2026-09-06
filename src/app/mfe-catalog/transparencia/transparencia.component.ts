@@ -139,13 +139,16 @@ import { DocumentoTransparencia, CategoriaDocumento } from '../../core/models/co
           <!-- Lista de Documentos Estilo Clean Dark -->
           <div class="space-y-4">
             @for (doc of comunalService.documentosFiltrados(); track doc.id) {
-              <div class="p-5 rounded-2xl bg-slate-950/70 border border-slate-800 hover:border-emerald-500/50 transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
-                <div class="flex items-start gap-4">
-                  <div class="w-13 h-13 rounded-2xl bg-red-950/40 border border-red-800/40 text-red-400 flex flex-col items-center justify-center font-black flex-shrink-0 shadow-xs p-2">
-                    <span class="text-xs leading-none">PDF</span>
-                    <span class="text-[10px] text-red-300 font-semibold mt-0.5">{{ doc.tamano }}</span>
+              <div class="p-6 rounded-2xl bg-slate-950/80 border border-slate-800 hover:border-emerald-500/50 transition-all flex flex-col md:flex-row md:items-center justify-between gap-6">
+                
+                <!-- Columna de Contenido e Información (flex-1 min-w-0 para ocupar todo el ancho) -->
+                <div class="flex items-start gap-4 flex-1 min-w-0">
+                  <div class="w-14 h-14 rounded-2xl bg-red-950/50 border border-red-800/50 text-red-400 flex flex-col items-center justify-center font-black flex-shrink-0 shadow-sm p-2">
+                    <span class="text-xs leading-none font-bold">PDF</span>
+                    <span class="text-[10px] text-red-300 font-semibold mt-1">{{ doc.tamano }}</span>
                   </div>
-                  <div>
+                  
+                  <div class="flex-1 min-w-0">
                     <div class="flex flex-wrap items-center gap-2 mb-1.5">
                       <span
                         [class.bg-emerald-950]="doc.categoria === 'acta'"
@@ -164,31 +167,37 @@ import { DocumentoTransparencia, CategoriaDocumento } from '../../core/models/co
                       <span class="text-xs text-slate-400 font-medium">• {{ doc.periodo }}</span>
                       <span class="text-xs text-slate-500">({{ doc.fecha }})</span>
                     </div>
-                    <h4 class="text-base font-bold text-white leading-snug">
+
+                    <h4 class="text-base sm:text-lg font-bold text-white leading-snug mb-1">
                       {{ doc.titulo }}
                     </h4>
-                    <p class="text-xs text-slate-400 mt-1 max-w-2xl leading-relaxed">
+                    
+                    <p class="text-xs sm:text-sm text-slate-300 mt-1 leading-relaxed">
                       {{ doc.descripcion }}
                     </p>
-                    <span class="text-[11px] text-slate-500 mt-1.5 block font-medium">
-                      ✍️ <strong>Firmado por:</strong> {{ doc.firmadoPor }}
-                    </span>
+                    
+                    <div class="text-[11px] text-slate-400 mt-2 flex items-center gap-1.5 font-medium">
+                      <span>✍️</span>
+                      <span><strong>Firmado por:</strong> {{ doc.firmadoPor }}</span>
+                    </div>
                   </div>
                 </div>
 
-                <!-- Botones de Acción -->
-                <div class="flex items-center gap-2.5 w-full sm:w-auto justify-end flex-shrink-0 pt-2 sm:pt-0">
+                <!-- Botones de Acción (Sin encogerse ni recortarse) -->
+                <div class="flex items-center gap-3 flex-shrink-0 pt-2 md:pt-0">
                   <button
+                    type="button"
                     (click)="abrirVisor(doc)"
-                    class="btn-dark-secondary text-xs sm:text-sm py-2 px-3.5"
+                    class="btn-dark-secondary text-xs sm:text-sm py-2.5 px-4 rounded-xl flex items-center gap-1.5 whitespace-nowrap"
                     title="Ver resumen oficial"
                   >
                     <span>👁️ Ver Resumen</span>
                   </button>
 
                   <button
+                    type="button"
                     (click)="descargar(doc)"
-                    class="btn-emerald-glow text-xs sm:text-sm py-2 px-4 shadow-sm"
+                    class="btn-emerald-glow text-xs sm:text-sm py-2.5 px-4 rounded-xl font-bold flex items-center gap-2 shadow-sm whitespace-nowrap"
                     title="Descargar documento PDF"
                   >
                     <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">

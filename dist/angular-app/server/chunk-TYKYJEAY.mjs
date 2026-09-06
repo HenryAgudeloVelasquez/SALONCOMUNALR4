@@ -1171,53 +1171,54 @@ function TransparenciaComponent_For_34_Template(rf, ctx) {
     \u0275\u0275domElementStart(5, "span", 35);
     \u0275\u0275text(6);
     \u0275\u0275domElementEnd()();
-    \u0275\u0275domElementStart(7, "div")(8, "div", 36)(9, "span", 37);
+    \u0275\u0275domElementStart(7, "div", 36)(8, "div", 37)(9, "span", 38);
     \u0275\u0275text(10);
     \u0275\u0275domElementEnd();
-    \u0275\u0275domElementStart(11, "span", 38);
+    \u0275\u0275domElementStart(11, "span", 39);
     \u0275\u0275text(12);
     \u0275\u0275domElementEnd();
-    \u0275\u0275domElementStart(13, "span", 39);
+    \u0275\u0275domElementStart(13, "span", 40);
     \u0275\u0275text(14);
     \u0275\u0275domElementEnd()();
-    \u0275\u0275domElementStart(15, "h4", 40);
+    \u0275\u0275domElementStart(15, "h4", 41);
     \u0275\u0275text(16);
     \u0275\u0275domElementEnd();
-    \u0275\u0275domElementStart(17, "p", 41);
+    \u0275\u0275domElementStart(17, "p", 42);
     \u0275\u0275text(18);
     \u0275\u0275domElementEnd();
-    \u0275\u0275domElementStart(19, "span", 42);
-    \u0275\u0275text(20, " \u270D\uFE0F ");
-    \u0275\u0275domElementStart(21, "strong");
-    \u0275\u0275text(22, "Firmado por:");
+    \u0275\u0275domElementStart(19, "div", 43)(20, "span");
+    \u0275\u0275text(21, "\u270D\uFE0F");
     \u0275\u0275domElementEnd();
-    \u0275\u0275text(23);
-    \u0275\u0275domElementEnd()()();
-    \u0275\u0275domElementStart(24, "div", 43)(25, "button", 44);
-    \u0275\u0275domListener("click", function TransparenciaComponent_For_34_Template_button_click_25_listener() {
+    \u0275\u0275domElementStart(22, "span")(23, "strong");
+    \u0275\u0275text(24, "Firmado por:");
+    \u0275\u0275domElementEnd();
+    \u0275\u0275text(25);
+    \u0275\u0275domElementEnd()()()();
+    \u0275\u0275domElementStart(26, "div", 44)(27, "button", 45);
+    \u0275\u0275domListener("click", function TransparenciaComponent_For_34_Template_button_click_27_listener() {
       const doc_r3 = \u0275\u0275restoreView(_r2).$implicit;
       const ctx_r3 = \u0275\u0275nextContext();
       return \u0275\u0275resetView(ctx_r3.abrirVisor(doc_r3));
     });
-    \u0275\u0275domElementStart(26, "span");
-    \u0275\u0275text(27, "\u{1F441}\uFE0F Ver Resumen");
+    \u0275\u0275domElementStart(28, "span");
+    \u0275\u0275text(29, "\u{1F441}\uFE0F Ver Resumen");
     \u0275\u0275domElementEnd()();
-    \u0275\u0275domElementStart(28, "button", 45);
-    \u0275\u0275domListener("click", function TransparenciaComponent_For_34_Template_button_click_28_listener() {
+    \u0275\u0275domElementStart(30, "button", 46);
+    \u0275\u0275domListener("click", function TransparenciaComponent_For_34_Template_button_click_30_listener() {
       const doc_r3 = \u0275\u0275restoreView(_r2).$implicit;
       const ctx_r3 = \u0275\u0275nextContext();
       return \u0275\u0275resetView(ctx_r3.descargar(doc_r3));
     });
     \u0275\u0275namespaceSVG();
-    \u0275\u0275domElementStart(29, "svg", 46);
-    \u0275\u0275domElement(30, "path", 47)(31, "polyline", 48)(32, "line", 49);
+    \u0275\u0275domElementStart(31, "svg", 47);
+    \u0275\u0275domElement(32, "path", 48)(33, "polyline", 49)(34, "line", 50);
     \u0275\u0275domElementEnd();
     \u0275\u0275namespaceHTML();
-    \u0275\u0275domElementStart(33, "span");
-    \u0275\u0275text(34, "Descargar PDF");
+    \u0275\u0275domElementStart(35, "span");
+    \u0275\u0275text(36, "Descargar PDF");
     \u0275\u0275domElementEnd();
-    \u0275\u0275domElementStart(35, "span", 50);
-    \u0275\u0275text(36);
+    \u0275\u0275domElementStart(37, "span", 51);
+    \u0275\u0275text(38);
     \u0275\u0275domElementEnd()()()();
   }
   if (rf & 2) {
@@ -1236,8 +1237,8 @@ function TransparenciaComponent_For_34_Template(rf, ctx) {
     \u0275\u0275textInterpolate1(" ", doc_r3.titulo, " ");
     \u0275\u0275advance(2);
     \u0275\u0275textInterpolate1(" ", doc_r3.descripcion, " ");
-    \u0275\u0275advance(5);
-    \u0275\u0275textInterpolate1(" ", doc_r3.firmadoPor, " ");
+    \u0275\u0275advance(7);
+    \u0275\u0275textInterpolate1(" ", doc_r3.firmadoPor);
     \u0275\u0275advance(13);
     \u0275\u0275textInterpolate1(" ", doc_r3.descargas, " ");
   }
@@ -1245,13 +1246,13 @@ function TransparenciaComponent_For_34_Template(rf, ctx) {
 function TransparenciaComponent_Conditional_35_Template(rf, ctx) {
   if (rf & 1) {
     const _r5 = \u0275\u0275getCurrentView();
-    \u0275\u0275domElementStart(0, "div", 18)(1, "div", 51)(2, "div", 52)(3, "div")(4, "span", 53);
+    \u0275\u0275domElementStart(0, "div", 18)(1, "div", 52)(2, "div", 53)(3, "div")(4, "span", 54);
     \u0275\u0275text(5, " Documento P\xFAblico Comunitario ");
     \u0275\u0275domElementEnd();
-    \u0275\u0275domElementStart(6, "h3", 54);
+    \u0275\u0275domElementStart(6, "h3", 55);
     \u0275\u0275text(7);
     \u0275\u0275domElementEnd()();
-    \u0275\u0275domElementStart(8, "button", 55);
+    \u0275\u0275domElementStart(8, "button", 56);
     \u0275\u0275domListener("click", function TransparenciaComponent_Conditional_35_Template_button_click_8_listener() {
       \u0275\u0275restoreView(_r5);
       const ctx_r3 = \u0275\u0275nextContext();
@@ -1259,7 +1260,7 @@ function TransparenciaComponent_Conditional_35_Template(rf, ctx) {
     });
     \u0275\u0275text(9, " \u2715 ");
     \u0275\u0275domElementEnd()();
-    \u0275\u0275domElementStart(10, "div", 56)(11, "div", 57)(12, "div")(13, "strong");
+    \u0275\u0275domElementStart(10, "div", 57)(11, "div", 58)(12, "div")(13, "strong");
     \u0275\u0275text(14, "Periodo:");
     \u0275\u0275domElementEnd();
     \u0275\u0275text(15);
@@ -1280,19 +1281,19 @@ function TransparenciaComponent_Conditional_35_Template(rf, ctx) {
     \u0275\u0275domElementEnd();
     \u0275\u0275text(28);
     \u0275\u0275domElementEnd()();
-    \u0275\u0275domElementStart(29, "div")(30, "h5", 58);
+    \u0275\u0275domElementStart(29, "div")(30, "h5", 59);
     \u0275\u0275text(31, "Resumen de la Rendici\xF3n de Cuentas:");
     \u0275\u0275domElementEnd();
-    \u0275\u0275domElementStart(32, "p", 59);
+    \u0275\u0275domElementStart(32, "p", 60);
     \u0275\u0275text(33);
     \u0275\u0275domElementEnd()();
-    \u0275\u0275domElementStart(34, "div", 60)(35, "span");
+    \u0275\u0275domElementStart(34, "div", 61)(35, "span");
     \u0275\u0275text(36, "\u{1F512} Certificado por:");
     \u0275\u0275domElementEnd();
-    \u0275\u0275domElementStart(37, "strong", 61);
+    \u0275\u0275domElementStart(37, "strong", 62);
     \u0275\u0275text(38);
     \u0275\u0275domElementEnd()();
-    \u0275\u0275domElementStart(39, "div", 62)(40, "button", 63);
+    \u0275\u0275domElementStart(39, "div", 63)(40, "button", 64);
     \u0275\u0275domListener("click", function TransparenciaComponent_Conditional_35_Template_button_click_40_listener() {
       \u0275\u0275restoreView(_r5);
       const ctx_r3 = \u0275\u0275nextContext();
@@ -1300,7 +1301,7 @@ function TransparenciaComponent_Conditional_35_Template(rf, ctx) {
     });
     \u0275\u0275text(41, " Cerrar ");
     \u0275\u0275domElementEnd();
-    \u0275\u0275domElementStart(42, "button", 64);
+    \u0275\u0275domElementStart(42, "button", 65);
     \u0275\u0275domListener("click", function TransparenciaComponent_Conditional_35_Template_button_click_42_listener() {
       \u0275\u0275restoreView(_r5);
       const ctx_r3 = \u0275\u0275nextContext();
@@ -1357,7 +1358,7 @@ var TransparenciaComponent = class _TransparenciaComponent {
   static \u0275fac = function TransparenciaComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _TransparenciaComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _TransparenciaComponent, selectors: [["app-transparencia"]], decls: 36, vars: 26, consts: [["id", "transparencia", 1, "py-24", "bg-[#050b18]", "border-t", "border-slate-900"], [1, "container-comunal"], [1, "max-w-3xl", "mx-auto", "text-center", "mb-14"], [1, "inline-flex", "items-center", "gap-2", "bg-emerald-500/10", "text-emerald-400", "text-xs", "font-bold", "px-3.5", "py-1", "rounded-full", "mb-3", "border", "border-emerald-500/20"], [1, "w-1.5", "h-1.5", "rounded-full", "bg-emerald-400"], [1, "text-3xl", "sm:text-4xl", "font-extrabold", "text-white", "mb-3", "tracking-tight"], [1, "text-base", "sm:text-lg", "text-slate-400", "leading-relaxed"], [1, "grid", "grid-cols-1", "sm:grid-cols-2", "lg:grid-cols-4", "gap-6", "mb-16"], [1, "card-clean-dark", "p-6", "flex", "flex-col", "justify-between", "group"], [1, "card-clean-dark", "p-6", "sm:p-9", "bg-[#0b1120]/90", "border", "border-slate-800"], [1, "flex", "flex-col", "md:flex-row", "md:items-center", "justify-between", "gap-4", "mb-8", "pb-6", "border-b", "border-slate-800"], [1, "text-[11px]", "font-bold", "text-emerald-400", "uppercase", "tracking-wider", "block"], [1, "text-2xl", "font-extrabold", "text-white", "mt-0.5"], [1, "text-xs", "sm:text-sm", "text-slate-400", "mt-1"], [1, "flex", "flex-wrap", "items-center", "gap-2", "bg-slate-950", "p-1.5", "rounded-2xl", "border", "border-slate-800"], [1, "px-3.5", "py-1.5", "rounded-xl", "text-xs", "font-bold", "transition-all", 3, "click"], [1, "space-y-4"], [1, "p-5", "rounded-2xl", "bg-slate-950/70", "border", "border-slate-800", "hover:border-emerald-500/50", "transition-all", "flex", "flex-col", "sm:flex-row", "items-start", "sm:items-center", "justify-between", "gap-5"], [1, "fixed", "inset-0", "z-50", "flex", "items-center", "justify-center", "bg-black/80", "p-4", "backdrop-blur-md", "animate-fade-in"], [1, "flex", "items-center", "justify-between", "mb-4"], [1, "text-[11px]", "font-extrabold", "text-emerald-400", "bg-emerald-950/60", "px-2.5", "py-1", "rounded-full", "border", "border-emerald-500/30", "uppercase", "tracking-wide"], [1, "w-11", "h-11", "rounded-2xl", "bg-slate-900", "group-hover:bg-emerald-950/60", "text-slate-300", "group-hover:text-emerald-400", "border", "border-slate-800", "flex", "items-center", "justify-center", "font-bold", "text-xl", "transition-colors", "shadow-xs"], [1, "mt-1", "mb-2"], [1, "text-3xl", "sm:text-4xl", "font-black", "text-white", "tracking-tight"], [1, "text-xs", "text-slate-400", "font-bold", "block", "mt-0.5", "uppercase", "tracking-wide"], [1, "text-base", "font-bold", "text-white", "mt-2", "mb-1.5", "leading-snug"], [1, "text-xs", "text-slate-400", "leading-relaxed"], [1, "mt-5", "pt-3", "border-t", "border-slate-800"], [1, "flex", "justify-between", "text-xs", "font-semibold", "text-slate-300", "mb-1.5"], [1, "text-emerald-400", "font-extrabold"], [1, "w-full", "bg-slate-900", "rounded-full", "h-2", "overflow-hidden", "border", "border-slate-800"], [1, "bg-gradient-to-r", "from-emerald-500", "to-teal-400", "h-full", "rounded-full", "transition-all", "duration-700", "shadow-xs"], [1, "flex", "items-start", "gap-4"], [1, "w-13", "h-13", "rounded-2xl", "bg-red-950/40", "border", "border-red-800/40", "text-red-400", "flex", "flex-col", "items-center", "justify-center", "font-black", "flex-shrink-0", "shadow-xs", "p-2"], [1, "text-xs", "leading-none"], [1, "text-[10px]", "text-red-300", "font-semibold", "mt-0.5"], [1, "flex", "flex-wrap", "items-center", "gap-2", "mb-1.5"], [1, "text-[10px]", "font-black", "uppercase", "px-2.5", "py-0.5", "rounded-full", "border"], [1, "text-xs", "text-slate-400", "font-medium"], [1, "text-xs", "text-slate-500"], [1, "text-base", "font-bold", "text-white", "leading-snug"], [1, "text-xs", "text-slate-400", "mt-1", "max-w-2xl", "leading-relaxed"], [1, "text-[11px]", "text-slate-500", "mt-1.5", "block", "font-medium"], [1, "flex", "items-center", "gap-2.5", "w-full", "sm:w-auto", "justify-end", "flex-shrink-0", "pt-2", "sm:pt-0"], ["title", "Ver resumen oficial", 1, "btn-dark-secondary", "text-xs", "sm:text-sm", "py-2", "px-3.5", 3, "click"], ["title", "Descargar documento PDF", 1, "btn-emerald-glow", "text-xs", "sm:text-sm", "py-2", "px-4", "shadow-sm", 3, "click"], ["viewBox", "0 0 24 24", "fill", "none", "stroke", "currentColor", "stroke-width", "2.5", 1, "w-4", "h-4"], ["d", "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"], ["points", "7 10 12 15 17 10"], ["x1", "12", "y1", "15", "x2", "12", "y2", "3"], [1, "text-[10px]", "bg-slate-950", "text-emerald-400", "px-1.5", "py-0.5", "rounded-full", "ml-1", "font-bold"], [1, "bg-slate-900", "rounded-3xl", "max-w-xl", "w-full", "shadow-2xl", "overflow-hidden", "border", "border-slate-800"], [1, "bg-[#020617]", "text-white", "p-6", "flex", "items-center", "justify-between", "border-b", "border-slate-800"], [1, "text-[11px]", "uppercase", "text-emerald-400", "font-bold", "tracking-wider", "block"], [1, "text-lg", "font-bold", "tracking-tight", "mt-0.5"], [1, "text-slate-400", "hover:text-white", "text-2xl", "font-bold", "p-1", "leading-none", "transition-colors", 3, "click"], [1, "p-6", "space-y-4"], [1, "grid", "grid-cols-2", "gap-3", "text-xs", "bg-slate-950", "p-3.5", "rounded-2xl", "border", "border-slate-800", "text-slate-300"], [1, "text-xs", "font-bold", "text-slate-300", "uppercase", "mb-1.5"], [1, "text-xs", "sm:text-sm", "text-slate-300", "leading-relaxed", "bg-slate-950/80", "p-4", "rounded-2xl", "border", "border-slate-800"], [1, "text-xs", "text-slate-400", "flex", "items-center", "gap-1.5"], [1, "text-slate-200"], [1, "flex", "items-center", "justify-end", "gap-3", "pt-3", "border-t", "border-slate-800"], [1, "px-4", "py-2", "bg-slate-800", "hover:bg-slate-700", "text-slate-300", "font-semibold", "text-xs", "sm:text-sm", "rounded-xl", 3, "click"], [1, "btn-emerald-glow", "text-xs", "sm:text-sm", "py-2", "px-4", "shadow-sm", 3, "click"]], template: function TransparenciaComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _TransparenciaComponent, selectors: [["app-transparencia"]], decls: 36, vars: 26, consts: [["id", "transparencia", 1, "py-24", "bg-[#050b18]", "border-t", "border-slate-900"], [1, "container-comunal"], [1, "max-w-3xl", "mx-auto", "text-center", "mb-14"], [1, "inline-flex", "items-center", "gap-2", "bg-emerald-500/10", "text-emerald-400", "text-xs", "font-bold", "px-3.5", "py-1", "rounded-full", "mb-3", "border", "border-emerald-500/20"], [1, "w-1.5", "h-1.5", "rounded-full", "bg-emerald-400"], [1, "text-3xl", "sm:text-4xl", "font-extrabold", "text-white", "mb-3", "tracking-tight"], [1, "text-base", "sm:text-lg", "text-slate-400", "leading-relaxed"], [1, "grid", "grid-cols-1", "sm:grid-cols-2", "lg:grid-cols-4", "gap-6", "mb-16"], [1, "card-clean-dark", "p-6", "flex", "flex-col", "justify-between", "group"], [1, "card-clean-dark", "p-6", "sm:p-9", "bg-[#0b1120]/90", "border", "border-slate-800"], [1, "flex", "flex-col", "md:flex-row", "md:items-center", "justify-between", "gap-4", "mb-8", "pb-6", "border-b", "border-slate-800"], [1, "text-[11px]", "font-bold", "text-emerald-400", "uppercase", "tracking-wider", "block"], [1, "text-2xl", "font-extrabold", "text-white", "mt-0.5"], [1, "text-xs", "sm:text-sm", "text-slate-400", "mt-1"], [1, "flex", "flex-wrap", "items-center", "gap-2", "bg-slate-950", "p-1.5", "rounded-2xl", "border", "border-slate-800"], [1, "px-3.5", "py-1.5", "rounded-xl", "text-xs", "font-bold", "transition-all", 3, "click"], [1, "space-y-4"], [1, "p-6", "rounded-2xl", "bg-slate-950/80", "border", "border-slate-800", "hover:border-emerald-500/50", "transition-all", "flex", "flex-col", "md:flex-row", "md:items-center", "justify-between", "gap-6"], [1, "fixed", "inset-0", "z-50", "flex", "items-center", "justify-center", "bg-black/80", "p-4", "backdrop-blur-md", "animate-fade-in"], [1, "flex", "items-center", "justify-between", "mb-4"], [1, "text-[11px]", "font-extrabold", "text-emerald-400", "bg-emerald-950/60", "px-2.5", "py-1", "rounded-full", "border", "border-emerald-500/30", "uppercase", "tracking-wide"], [1, "w-11", "h-11", "rounded-2xl", "bg-slate-900", "group-hover:bg-emerald-950/60", "text-slate-300", "group-hover:text-emerald-400", "border", "border-slate-800", "flex", "items-center", "justify-center", "font-bold", "text-xl", "transition-colors", "shadow-xs"], [1, "mt-1", "mb-2"], [1, "text-3xl", "sm:text-4xl", "font-black", "text-white", "tracking-tight"], [1, "text-xs", "text-slate-400", "font-bold", "block", "mt-0.5", "uppercase", "tracking-wide"], [1, "text-base", "font-bold", "text-white", "mt-2", "mb-1.5", "leading-snug"], [1, "text-xs", "text-slate-400", "leading-relaxed"], [1, "mt-5", "pt-3", "border-t", "border-slate-800"], [1, "flex", "justify-between", "text-xs", "font-semibold", "text-slate-300", "mb-1.5"], [1, "text-emerald-400", "font-extrabold"], [1, "w-full", "bg-slate-900", "rounded-full", "h-2", "overflow-hidden", "border", "border-slate-800"], [1, "bg-gradient-to-r", "from-emerald-500", "to-teal-400", "h-full", "rounded-full", "transition-all", "duration-700", "shadow-xs"], [1, "flex", "items-start", "gap-4", "flex-1", "min-w-0"], [1, "w-14", "h-14", "rounded-2xl", "bg-red-950/50", "border", "border-red-800/50", "text-red-400", "flex", "flex-col", "items-center", "justify-center", "font-black", "flex-shrink-0", "shadow-sm", "p-2"], [1, "text-xs", "leading-none", "font-bold"], [1, "text-[10px]", "text-red-300", "font-semibold", "mt-1"], [1, "flex-1", "min-w-0"], [1, "flex", "flex-wrap", "items-center", "gap-2", "mb-1.5"], [1, "text-[10px]", "font-black", "uppercase", "px-2.5", "py-0.5", "rounded-full", "border"], [1, "text-xs", "text-slate-400", "font-medium"], [1, "text-xs", "text-slate-500"], [1, "text-base", "sm:text-lg", "font-bold", "text-white", "leading-snug", "mb-1"], [1, "text-xs", "sm:text-sm", "text-slate-300", "mt-1", "leading-relaxed"], [1, "text-[11px]", "text-slate-400", "mt-2", "flex", "items-center", "gap-1.5", "font-medium"], [1, "flex", "items-center", "gap-3", "flex-shrink-0", "pt-2", "md:pt-0"], ["type", "button", "title", "Ver resumen oficial", 1, "btn-dark-secondary", "text-xs", "sm:text-sm", "py-2.5", "px-4", "rounded-xl", "flex", "items-center", "gap-1.5", "whitespace-nowrap", 3, "click"], ["type", "button", "title", "Descargar documento PDF", 1, "btn-emerald-glow", "text-xs", "sm:text-sm", "py-2.5", "px-4", "rounded-xl", "font-bold", "flex", "items-center", "gap-2", "shadow-sm", "whitespace-nowrap", 3, "click"], ["viewBox", "0 0 24 24", "fill", "none", "stroke", "currentColor", "stroke-width", "2.5", 1, "w-4", "h-4"], ["d", "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"], ["points", "7 10 12 15 17 10"], ["x1", "12", "y1", "15", "x2", "12", "y2", "3"], [1, "text-[10px]", "bg-slate-950", "text-emerald-400", "px-1.5", "py-0.5", "rounded-full", "ml-1", "font-bold"], [1, "bg-slate-900", "rounded-3xl", "max-w-xl", "w-full", "shadow-2xl", "overflow-hidden", "border", "border-slate-800"], [1, "bg-[#020617]", "text-white", "p-6", "flex", "items-center", "justify-between", "border-b", "border-slate-800"], [1, "text-[11px]", "uppercase", "text-emerald-400", "font-bold", "tracking-wider", "block"], [1, "text-lg", "font-bold", "tracking-tight", "mt-0.5"], [1, "text-slate-400", "hover:text-white", "text-2xl", "font-bold", "p-1", "leading-none", "transition-colors", 3, "click"], [1, "p-6", "space-y-4"], [1, "grid", "grid-cols-2", "gap-3", "text-xs", "bg-slate-950", "p-3.5", "rounded-2xl", "border", "border-slate-800", "text-slate-300"], [1, "text-xs", "font-bold", "text-slate-300", "uppercase", "mb-1.5"], [1, "text-xs", "sm:text-sm", "text-slate-300", "leading-relaxed", "bg-slate-950/80", "p-4", "rounded-2xl", "border", "border-slate-800"], [1, "text-xs", "text-slate-400", "flex", "items-center", "gap-1.5"], [1, "text-slate-200"], [1, "flex", "items-center", "justify-end", "gap-3", "pt-3", "border-t", "border-slate-800"], [1, "px-4", "py-2", "bg-slate-800", "hover:bg-slate-700", "text-slate-300", "font-semibold", "text-xs", "sm:text-sm", "rounded-xl", 3, "click"], [1, "btn-emerald-glow", "text-xs", "sm:text-sm", "py-2", "px-4", "shadow-sm", 3, "click"]], template: function TransparenciaComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275domElementStart(0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3);
       \u0275\u0275domElement(4, "span", 4);
@@ -1407,7 +1408,7 @@ var TransparenciaComponent = class _TransparenciaComponent {
       \u0275\u0275text(31, " \u{1F4D1} Informes ");
       \u0275\u0275domElementEnd()()();
       \u0275\u0275domElementStart(32, "div", 16);
-      \u0275\u0275repeaterCreate(33, TransparenciaComponent_For_34_Template, 37, 26, "div", 17, _forTrack02);
+      \u0275\u0275repeaterCreate(33, TransparenciaComponent_For_34_Template, 39, 26, "div", 17, _forTrack02);
       \u0275\u0275domElementEnd()();
       \u0275\u0275conditionalCreate(35, TransparenciaComponent_Conditional_35_Template, 45, 9, "div", 18);
       \u0275\u0275domElementEnd()();
@@ -1570,13 +1571,16 @@ var TransparenciaComponent = class _TransparenciaComponent {
           <!-- Lista de Documentos Estilo Clean Dark -->
           <div class="space-y-4">
             @for (doc of comunalService.documentosFiltrados(); track doc.id) {
-              <div class="p-5 rounded-2xl bg-slate-950/70 border border-slate-800 hover:border-emerald-500/50 transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
-                <div class="flex items-start gap-4">
-                  <div class="w-13 h-13 rounded-2xl bg-red-950/40 border border-red-800/40 text-red-400 flex flex-col items-center justify-center font-black flex-shrink-0 shadow-xs p-2">
-                    <span class="text-xs leading-none">PDF</span>
-                    <span class="text-[10px] text-red-300 font-semibold mt-0.5">{{ doc.tamano }}</span>
+              <div class="p-6 rounded-2xl bg-slate-950/80 border border-slate-800 hover:border-emerald-500/50 transition-all flex flex-col md:flex-row md:items-center justify-between gap-6">
+                
+                <!-- Columna de Contenido e Informaci\xF3n (flex-1 min-w-0 para ocupar todo el ancho) -->
+                <div class="flex items-start gap-4 flex-1 min-w-0">
+                  <div class="w-14 h-14 rounded-2xl bg-red-950/50 border border-red-800/50 text-red-400 flex flex-col items-center justify-center font-black flex-shrink-0 shadow-sm p-2">
+                    <span class="text-xs leading-none font-bold">PDF</span>
+                    <span class="text-[10px] text-red-300 font-semibold mt-1">{{ doc.tamano }}</span>
                   </div>
-                  <div>
+                  
+                  <div class="flex-1 min-w-0">
                     <div class="flex flex-wrap items-center gap-2 mb-1.5">
                       <span
                         [class.bg-emerald-950]="doc.categoria === 'acta'"
@@ -1595,31 +1599,37 @@ var TransparenciaComponent = class _TransparenciaComponent {
                       <span class="text-xs text-slate-400 font-medium">\u2022 {{ doc.periodo }}</span>
                       <span class="text-xs text-slate-500">({{ doc.fecha }})</span>
                     </div>
-                    <h4 class="text-base font-bold text-white leading-snug">
+
+                    <h4 class="text-base sm:text-lg font-bold text-white leading-snug mb-1">
                       {{ doc.titulo }}
                     </h4>
-                    <p class="text-xs text-slate-400 mt-1 max-w-2xl leading-relaxed">
+                    
+                    <p class="text-xs sm:text-sm text-slate-300 mt-1 leading-relaxed">
                       {{ doc.descripcion }}
                     </p>
-                    <span class="text-[11px] text-slate-500 mt-1.5 block font-medium">
-                      \u270D\uFE0F <strong>Firmado por:</strong> {{ doc.firmadoPor }}
-                    </span>
+                    
+                    <div class="text-[11px] text-slate-400 mt-2 flex items-center gap-1.5 font-medium">
+                      <span>\u270D\uFE0F</span>
+                      <span><strong>Firmado por:</strong> {{ doc.firmadoPor }}</span>
+                    </div>
                   </div>
                 </div>
 
-                <!-- Botones de Acci\xF3n -->
-                <div class="flex items-center gap-2.5 w-full sm:w-auto justify-end flex-shrink-0 pt-2 sm:pt-0">
+                <!-- Botones de Acci\xF3n (Sin encogerse ni recortarse) -->
+                <div class="flex items-center gap-3 flex-shrink-0 pt-2 md:pt-0">
                   <button
+                    type="button"
                     (click)="abrirVisor(doc)"
-                    class="btn-dark-secondary text-xs sm:text-sm py-2 px-3.5"
+                    class="btn-dark-secondary text-xs sm:text-sm py-2.5 px-4 rounded-xl flex items-center gap-1.5 whitespace-nowrap"
                     title="Ver resumen oficial"
                   >
                     <span>\u{1F441}\uFE0F Ver Resumen</span>
                   </button>
 
                   <button
+                    type="button"
                     (click)="descargar(doc)"
-                    class="btn-emerald-glow text-xs sm:text-sm py-2 px-4 shadow-sm"
+                    class="btn-emerald-glow text-xs sm:text-sm py-2.5 px-4 rounded-xl font-bold flex items-center gap-2 shadow-sm whitespace-nowrap"
                     title="Descargar documento PDF"
                   >
                     <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -1704,7 +1714,7 @@ var TransparenciaComponent = class _TransparenciaComponent {
   }], null, null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(TransparenciaComponent, { className: "TransparenciaComponent", filePath: "src/app/mfe-catalog/transparencia/transparencia.component.ts", lineNumber: 273 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(TransparenciaComponent, { className: "TransparenciaComponent", filePath: "src/app/mfe-catalog/transparencia/transparencia.component.ts", lineNumber: 282 });
 })();
 
 // src/app/mfe-catalog/voz-barrio/voz-barrio.component.ts
@@ -2724,4 +2734,4 @@ var CATALOG_ROUTES = [
 export {
   CATALOG_ROUTES
 };
-//# sourceMappingURL=chunk-4WJFCOZP.mjs.map
+//# sourceMappingURL=chunk-TYKYJEAY.mjs.map

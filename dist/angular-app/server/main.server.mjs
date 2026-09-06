@@ -40421,7 +40421,7 @@ var App = class _App {
 var routes = [
   __spreadValues({
     path: "",
-    loadChildren: () => import("./chunk-4WJFCOZP.mjs").then((m) => m.CATALOG_ROUTES),
+    loadChildren: () => import("./chunk-TYKYJEAY.mjs").then((m) => m.CATALOG_ROUTES),
     title: "JAC Barrio Los Rosales Sector 4 // Portal Comunal, Reserva de Sal\xF3n y Transparencia"
   }, true ? { \u0275entryName: "src/app/mfe-catalog/catalog.routes.ts" } : {}),
   {
