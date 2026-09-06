@@ -46,13 +46,19 @@ app.use((req, res, next) => {
 });
 
 /**
- * Start the server if this module is the main entry point, or it is ran via PM2.
- * The server listens on the port defined by the `PORT` environment variable, or defaults to 4000.
+ * Inicia el servidor Express si es el punto de entrada principal o si se ejecuta en:
+ * - IIS con httpPlatformHandler o iisnode (APP_POOL_ID / HTTP_PLATFORM_PORT)
+ * - PM2 (pm_id)
+ * - Contenedores / Hosting Cloud (PORT)
  */
-if (isMainModule(import.meta.url) || process.env['pm_id']) {
-  const port = process.env['PORT'] || 4000;
+const isIIS = Boolean(process.env['APP_POOL_ID'] || process.env['HTTP_PLATFORM_PORT']);
+const isProductionHosting = Boolean(process.env['PORT'] || process.env['NODE_ENV'] === 'production');
+
+if (isMainModule(import.meta.url) || isIIS || isProductionHosting || process.env['pm_id']) {
+  const port = process.env['PORT'] || process.env['HTTP_PLATFORM_PORT'] || 4000;
   app.listen(port, (error) => {
     if (error) {
+      console.error('Error al iniciar el servidor Angular SSR:', error);
       throw error;
     }
 
