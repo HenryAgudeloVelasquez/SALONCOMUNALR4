@@ -1,12 +1,5 @@
 {
   "routes": {
-    "/": {},
-    "/brand": {},
-    "/brand/camiseta-tactica-mtf-alpha-9": {},
-    "/brand/hoodie-tactico-mtf-blackout-operador": {},
-    "/brand/manilla-identificacion-mtf-vanguard": {},
-    "/brand/manilla-paracord-militar-mtf-grillete-titanio": {},
-    "/brand/taza-tactica-mtf-alpha-1-ceramica-carbon": {},
-    "/brand/vaso-termico-mtf-omega-7-hammer-down": {}
+    "/": {}
   }
 }

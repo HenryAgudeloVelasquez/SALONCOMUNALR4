@@ -1,12 +1,12 @@
-<div class="app-layout">
+<div class="app-layout min-h-screen flex flex-col bg-slate-50">
   <app-shell-header />
 
-  <main class="main-content">
+  <main class="main-content flex-grow">
     <router-outlet />
   </main>
 
   <app-shell-footer />
 
-  <!-- Bolsa / Drawer flotante de cotización -->
-  <app-inquiry-drawer />
+  <!-- Botón flotante permanente de WhatsApp con mensaje listo para enviar -->
+  <app-whatsapp-button [floating]="true" />
 </div>
