@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["badge.component.ts"],
-  "sourcesContent": ["\n    :host {\n      display: inline-block;\n    }\n    .badge-dot {\n      width: 6px;\n      height: 6px;\n      border-radius: 50%;\n      background-color: currentColor;\n      display: inline-block;\n    }\n  "],
-  "mappings": ";AACI;AACE,WAAA;AACF;AACA,CAAA;AACE,SAAA;AACA,UAAA;AACA,iBAAA;AACA,oBAAA;AACA,WAAA;AACF;",
-  "names": []
-}
