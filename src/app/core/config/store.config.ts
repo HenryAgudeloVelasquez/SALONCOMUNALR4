@@ -24,22 +24,22 @@ export interface ComunalConfig {
 }
 
 export const COMUNAL_CONFIG: ComunalConfig = {
-  nombreJAC: 'Junta de Acción Comunal',
-  barrio: 'Barrio Los Rosales - Sector 4',
-  localidad: 'Comuna Central',
+  nombreJAC: 'Roma 4',
+  barrio: 'Salón Comunal • Sector 4',
+  localidad: 'Kennedy',
   ciudad: 'Bogotá D.C., Colombia',
   lema: 'Unidos por el bienestar, el progreso y la convivencia de nuestra comunidad',
-  direccionSalon: 'Carrera 14 # 45-20, Salón Comunal Los Rosales',
+  direccionSalon: 'Salón Comunal Roma 4, Sector 4',
   horarioAtencion: 'Lunes a Viernes: 8:00 AM - 12:00 PM / 2:00 PM - 6:00 PM | Sábados: 9:00 AM - 1:00 PM',
-  emailOficial: 'jac.losrosales.sector4@gmail.com',
-  emailAlertasDirectiva: 'directiva.jac.losrosales@gmail.com',
+  emailOficial: 'contacto.roma4@gmail.com',
+  emailAlertasDirectiva: 'directiva.roma4@gmail.com',
   whatsappNumber: '573184370785',
   whatsappDisplay: '+57 (318) 437-0785',
-  whatsappMensajePredeterminado: 'Hola JAC Los Rosales, soy vecino del sector y quisiera consultar información sobre las actividades y el salón comunal.',
+  whatsappMensajePredeterminado: 'Hola Roma 4, soy vecino del sector y quisiera consultar información sobre las actividades y el salón comunal.',
   socialLinks: {
-    facebook: 'https://facebook.com/JACLosRosalesSector4',
-    instagram: 'https://instagram.com/jac_losrosales_oficial',
-    youtube: 'https://youtube.com/@JACLosRosalesComunidad'
+    facebook: 'https://facebook.com/Roma4Oficial',
+    instagram: 'https://instagram.com/roma4_oficial',
+    youtube: 'https://youtube.com/@Roma4Comunidad'
   },
   tarifaSugerida: {
     eventoFamiliar: 120000,

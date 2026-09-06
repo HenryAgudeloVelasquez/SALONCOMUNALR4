@@ -17,7 +17,7 @@ import { ComunalService } from '../../core/services/comunal.service';
           <div class="space-y-4">
             <div class="flex items-center gap-3">
               <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-500 flex items-center justify-center text-slate-950 font-black text-base shadow-md">
-                JAC
+                R4
               </div>
               <div>
                 <h3 class="text-lg font-extrabold text-white leading-tight tracking-tight">{{ config.nombreJAC }}</h3>

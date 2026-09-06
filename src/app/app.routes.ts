@@ -4,7 +4,7 @@ export const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./mfe-catalog/catalog.routes').then(m => m.CATALOG_ROUTES),
-    title: 'JAC Barrio Los Rosales Sector 4 // Portal Comunal, Reserva de Salón y Transparencia'
+    title: 'Roma 4 // Salón Comunal, Reserva y Transparencia'
   },
   {
     path: '**',

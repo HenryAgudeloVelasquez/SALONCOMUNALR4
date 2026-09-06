@@ -45,7 +45,7 @@ export class ComunalService {
       nombreVecino: 'Comité de Deportes y Juventud',
       direccion: 'Sector Polideportivo',
       telefono: '310 445 6789',
-      email: 'deportes.losrosales@gmail.com',
+      email: 'deportes.roma4@gmail.com',
       tipoEvento: 'comunitario',
       fecha: this.obtenerFechaRelativa(5),
       horario: 'manana',

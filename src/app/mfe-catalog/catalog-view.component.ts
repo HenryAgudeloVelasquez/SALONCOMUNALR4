@@ -115,7 +115,7 @@ import { VozBarrioComponent } from './voz-barrio/voz-barrio.component';
               <div class="relative rounded-3xl overflow-hidden shadow-2xl border border-emerald-500/25 group bg-slate-900">
                 <img
                   src="https://images.unsplash.com/photo-1577495508048-b635879837f1?w=900&auto=format&fit=crop&q=80"
-                  alt="Instalaciones del Salón Comunal y Parque de Los Rosales"
+                  alt="Instalaciones del Salón Comunal Roma 4"
                   class="w-full h-80 sm:h-96 object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 
